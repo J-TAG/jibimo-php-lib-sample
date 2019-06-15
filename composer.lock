@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a9b1f3caf3446f4f290f9fd69539d4ea",
+    "packages": [
+        {
+            "name": "puresoft/jibimo-api",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/J-TAG/jibimo-api-php-lib.git",
+                "reference": "c893bce7268abd3063ef4047931fffc8372a8fbd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/J-TAG/jibimo-api-php-lib/zipball/c893bce7268abd3063ef4047931fffc8372a8fbd",
+                "reference": "c893bce7268abd3063ef4047931fffc8372a8fbd",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.2",
+                "php": ">=7.2.0",
+                "phpunit/phpunit": "^8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "puresoft\\jibimo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hesam Gholami",
+                    "email": "hesamgholami@yahoo.com"
+                }
+            ],
+            "description": "This library will connect to Jibimo API and bring you a reliable interface to work with",
+            "time": "2019-06-15T17:10:33+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "puresoft/jibimo-api": "^1.0"
+    }
+}
